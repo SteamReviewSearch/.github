@@ -62,33 +62,3 @@ Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-
 ## 서비스 아키텍처
 <img src='https://github.com/SteamReviewSearch/.github/blob/main/image/diagram.drawio%20(1).png'>
 
-## Project Setting
-
-###  <img src="https://img.shields.io/badge/.ENV-ECD53F?style=flat-square&logo=.ENV&logoColor=000000"/>
-```
-MYSQL_USERNAME: mysql 아이디
-MYSQL_PASSWORD: mysql 비밀번호
-MYSQL_DATABASE: mysql 데이터베이스 이름
-MYSQL_HOST: mysql 계정
-PORT: 서버 포트
-SECRETKEY: jwt 암호키
-NODE_ENV: 개발/배포
-CLOUD_ID: elastic 클라우드
-USER_NAME: elastic 아이디
-PASSWORD: elastic 비밀번호
-LOG: elastic 인덱스
-GAME: elastic 인덱스
-USER_INFO: elastic 인덱스
-ANALYZE: elastic 인덱스
-```
-### <img src="https://img.shields.io/badge/Convention-D8352A?style=flat-square&logo=The Conversation&logoColor=000000"/>
-- 모델 이름 = 첫 글자 대문자, 무조건 복수형
-    - 컬럼명
-        - id: 소문*자 붙이기: id, userid, appid, steamid*
-        - *steam API 크롤링한 컬럼명은 그대로 사용*
-            - review_score, total_positive 등
-- 파일 이름 = 소문자 표기, 문자 구분자는 _
-- 함수, 메서드명 = 카멜식 작명(앞부분 소문자, _ 없이 대문자로 이어붙이기)
-- 클래스 명 = 파스칼식 작명(모든 단어 앞 대문자)
-- 변수명 = 스네이크식 작명( 모두 소문자, ‘_’ 사용 )
-
