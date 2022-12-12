@@ -48,6 +48,23 @@ Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-
 ## OnePage Notion
 [<img src="https://img.shields.io/badge/Notion-F7A81B?style=flat-square&logo=Notion&logoColor=000000"/>](https://www.notion.so/Steam-For-U-44336c4a346f4faa925772a1d74b8473) << 링크
 
+# GitHub
+### search  
+- Steam For U의 메인 기능
+- [search](https://github.com/SteamReviewSearch/search)
+### up-to-date 
+- Steam For U의 신규 게임 데이터 수집 
+- [up-to-date](https://github.com/SteamReviewSearch/up-to-date)
+### log_Life_Cycle 
+- Steam For U의 로그 생명주기 
+- [log_Life_Cycle](https://github.com/SteamReviewSearch/log_Life_Cycle)
+### database-details 
+- Steam For U의 게임 상세 데이터 수집
+- [database-details ](https://github.com/SteamReviewSearch/database-details)
+### database 
+- Steam For U의 데이터 수집
+- [database](https://github.com/SteamReviewSearch/database)
+
 ## 서비스 아키텍처
 <img src='https://github.com/SteamReviewSearch/.github/blob/main/image/diagram.drawio%20(1).png'>
 
@@ -81,19 +98,3 @@ ANALYZE: elastic 인덱스
 - 클래스 명 = 파스칼식 작명(모든 단어 앞 대문자)
 - 변수명 = 스네이크식 작명( 모두 소문자, ‘_’ 사용 )
 
-# GitHub
-### search  
-- Steam For U의 메인 기능
-- [search](https://github.com/SteamReviewSearch/search)
-### up-to-date 
-- Steam For U의 신규 게임 데이터 수집 
-- [up-to-date](https://github.com/SteamReviewSearch/up-to-date)
-### log_Life_Cycle 
-- Steam For U의 로그 생명주기 
-- [log_Life_Cycle](https://github.com/SteamReviewSearch/log_Life_Cycle)
-### database-details 
-- Steam For U의 게임 상세 데이터 수집
-- [database-details ](https://github.com/SteamReviewSearch/database-details)
-### database 
-- Steam For U의 데이터 수집
-- [database](https://github.com/SteamReviewSearch/database)
