@@ -1,4 +1,4 @@
-<img src='../image/SteamForYOU.jpg'>
+<img src='https://github.com/SteamReviewSearch/.github/blob/main/image/SteamForYOU.jpg'>
 
 ## Project INFO
 스팀 리뷰 검색 및 검색결과 기반 게임 추천
