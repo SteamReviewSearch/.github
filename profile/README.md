@@ -51,7 +51,7 @@
 
 ----
 ## 서비스 아키텍처
-<img src='../image/diagram.drawio (1).png'>
+<img src='https://github.com/SteamReviewSearch/.github/blob/main/image/diagram.drawio%20(1).png'>
 
 ---- 
 ## Project Setting
