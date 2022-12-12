@@ -58,12 +58,6 @@ Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-
 ### log_Life_Cycle 
 - Steam For U의 로그 생명주기 
 - [log_Life_Cycle](https://github.com/SteamReviewSearch/log_Life_Cycle)
-### database-details 
-- Steam For U의 게임 상세 데이터 수집
-- [database-details ](https://github.com/SteamReviewSearch/database-details)
-### database 
-- Steam For U의 데이터 수집
-- [database](https://github.com/SteamReviewSearch/database)
 
 ## 서비스 아키텍처
 <img src='https://github.com/SteamReviewSearch/.github/blob/main/image/diagram.drawio%20(1).png'>
