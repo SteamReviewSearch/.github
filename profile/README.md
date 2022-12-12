@@ -2,26 +2,6 @@
 
 ## Project INFO
 스팀 리뷰 검색 및 검색결과 기반 게임 추천
-----
-
-
-# GitHub
-### search  
-- Steam For U의 메인 기능
-- [search](https://github.com/SteamReviewSearch/search)
-### up-to-date 
-- Steam For U의 신규 게임 데이터 수집 
-- [up-to-date](https://github.com/SteamReviewSearch/up-to-date)
-### log_Life_Cycle 
-- Steam For U의 로그 생명주기 
-- [log_Life_Cycle](https://github.com/SteamReviewSearch/log_Life_Cycle)
-### database-details 
-- Steam For U의 게임 상세 데이터 수집
-- [database-details ](https://github.com/SteamReviewSearch/database-details)
-### database 
-- Steam For U의 데이터 수집
-- [database](https://github.com/SteamReviewSearch/database)
-----
 
 ## Project Function
 ### 1. Elastic Search를 활용한 빠른 역색인 검색
@@ -45,15 +25,32 @@
     - i의 연관도를 가진 유저 A의 게임 리스트와 j의 연관도를 가진 유저 B의 게임리스트가 있을때
         - i*[A_gameList]+j*[B_gameList]의 방식으로 리스트 생성하여 상위의 게임을 추천
 - 지속적인 알고리즘 계산은 서버에 부담되기 때문에 DB에 저장하여 일정 시간이 지나지 않을 경우 DB의 정보를 꺼내서 추천, 아닐 경우 업데이트
-----
+
+## 기술 스택
+
+
+Front: <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=000000"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=000000"/>    
+
+Framwork: <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=999999"/>   
+
+Back : <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=000000"/>   
+
+DB : <img src="https://img.shields.io/badge/elastic cloud-005571?style=flat-square&logo=elastic cloud&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat-square&logo=AMAZONRDS&logoColor=000000"/>     
+
+Cashing: <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=REDIS&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon ElasticCash-005571?style=flat-square&logo=Amazon aws&logoColor=000000"/> 
+
+Logging: <img src="https://img.shields.io/badge/LogStash-005571?style=flat-square&logo=LogStash&logoColor=000000"/> <img src="https://img.shields.io/badge/winston-00B8FC?style=flat-square&logo=express&logoColor=000000"/> 
+
+Publish: <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat-square&logo=Amazon EC2&logoColor=000000"/>  
+
+Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=000000"/> <img src="https://img.shields.io/badge/Lodash-3492FF?style=flat-square&logo=Lodash&logoColor=000000"/>   
+
 ## OnePage Notion
 [<img src="https://img.shields.io/badge/Notion-F7A81B?style=flat-square&logo=Notion&logoColor=000000"/>](https://www.notion.so/Steam-For-U-44336c4a346f4faa925772a1d74b8473) << 링크
 
-----
 ## 서비스 아키텍처
 <img src='https://github.com/SteamReviewSearch/.github/blob/main/image/diagram.drawio%20(1).png'>
 
----- 
 ## Project Setting
 
 ###  <img src="https://img.shields.io/badge/.ENV-ECD53F?style=flat-square&logo=.ENV&logoColor=000000"/>
@@ -84,23 +81,19 @@ ANALYZE: elastic 인덱스
 - 클래스 명 = 파스칼식 작명(모든 단어 앞 대문자)
 - 변수명 = 스네이크식 작명( 모두 소문자, ‘_’ 사용 )
 
---- 
-## 기술 스택
-
-
-Front: <img src="https://img.shields.io/badge/jQuery-0769AD?style=flat-square&logo=jQuery&logoColor=000000"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=flat-square&logo=Bootstrap&logoColor=000000"/>    
-
-Framwork: <img src="https://img.shields.io/badge/Express-000000?style=flat-square&logo=Express&logoColor=999999"/>   
-
-Back : <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=Node.js&logoColor=000000"/>   
-
-DB : <img src="https://img.shields.io/badge/elastic cloud-005571?style=flat-square&logo=elastic cloud&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon RDS-527FFF?style=flat-square&logo=AMAZONRDS&logoColor=000000"/>     
-
-Cashing: <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=REDIS&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon ElasticCash-005571?style=flat-square&logo=Amazon aws&logoColor=000000"/> 
-
-Logging: <img src="https://img.shields.io/badge/LogStash-005571?style=flat-square&logo=LogStash&logoColor=000000"/> <img src="https://img.shields.io/badge/winston-00B8FC?style=flat-square&logo=express&logoColor=000000"/> 
-
-Publish: <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat-square&logo=Amazon EC2&logoColor=000000"/>  
-
-Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=000000"/> <img src="https://img.shields.io/badge/Lodash-3492FF?style=flat-square&logo=Lodash&logoColor=000000"/>   
-
+# GitHub
+### search  
+- Steam For U의 메인 기능
+- [search](https://github.com/SteamReviewSearch/search)
+### up-to-date 
+- Steam For U의 신규 게임 데이터 수집 
+- [up-to-date](https://github.com/SteamReviewSearch/up-to-date)
+### log_Life_Cycle 
+- Steam For U의 로그 생명주기 
+- [log_Life_Cycle](https://github.com/SteamReviewSearch/log_Life_Cycle)
+### database-details 
+- Steam For U의 게임 상세 데이터 수집
+- [database-details ](https://github.com/SteamReviewSearch/database-details)
+### database 
+- Steam For U의 데이터 수집
+- [database](https://github.com/SteamReviewSearch/database)
