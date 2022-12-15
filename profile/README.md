@@ -51,11 +51,11 @@ Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-
 # GitHub
 ### search  
 - Steam For U의 메인 기능
-- [search](https://github.com/SteamReviewSearch/search/blob/main/README.md)
+- [search README.md](https://github.com/SteamReviewSearch/search/blob/main/README.md)
 ### up-to-date 
 - Steam For U의 신규 게임 데이터 수집 
-- [up-to-date](https://github.com/SteamReviewSearch/up-to-date/blob/dev/minjae/README.md)
+- [up-to-date README.md](https://github.com/SteamReviewSearch/up-to-date/blob/dev/minjae/README.md)
 ### log_Life_Cycle 
 - Steam For U의 로그 생명주기 
-- [log_Life_Cycle](https://github.com/SteamReviewSearch/log_Life_Cycle/blob/main/README.md)
+- [log_Life_Cycle README.md](https://github.com/SteamReviewSearch/log_Life_Cycle/blob/main/README.md)
 
