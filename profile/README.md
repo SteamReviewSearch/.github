@@ -62,6 +62,6 @@ Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-
 # Member
 |직책|이름|github|e-mail|역할|
 |---|---|---|---|---|
-|팀장|김재준|g|x.xreesespuffs@gmail.com|레디스, 최신화 서버, 로그스태시작업|
+|팀장|김재준|https://github.com/KJJDSA|게임 검색 및 리뷰 탐색, 게임 및 리뷰 데이터 관리, 프론트엔드 제작||
 |팀원|김민재|https://github.com/minjjai|x.xreesespuffs@gmail.com|레디스, 최신화 서버, 로그스태시작업|
 |팀원|최성영|https://github.com/cesdea|aprkvnem@gmail.com|추천 알고리즘, 로드밸런스, 로그인, 회원가입|
