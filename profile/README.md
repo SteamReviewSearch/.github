@@ -43,7 +43,9 @@ Logging: <img src="https://img.shields.io/badge/LogStash-005571?style=flat-squar
 
 Publish: <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=000000"/> <img src="https://img.shields.io/badge/Amazon EC2-FF9900?style=flat-square&logo=Amazon EC2&logoColor=000000"/>  
 
-Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=000000"/> <img src="https://img.shields.io/badge/Lodash-3492FF?style=flat-square&logo=Lodash&logoColor=000000"/>   
+Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-square&logo=Axios&logoColor=000000"/> <img src="https://img.shields.io/badge/Lodash-3492FF?style=flat-square&logo=Lodash&logoColor=000000"/> 
+
+Load Balancer: <img src="https://img.shields.io/badge/AWS load balancer-569A31?style=flat-square&logo=Amazon AWS&logoColor=000000"/>
 
 ## OnePage Notion
 [<img src="https://img.shields.io/badge/Notion-F7A81B?style=flat-square&logo=Notion&logoColor=000000"/>](https://www.notion.so/Steam-For-U-44336c4a346f4faa925772a1d74b8473) << 링크
