@@ -59,3 +59,9 @@ Data Collection: <img src="https://img.shields.io/badge/Axios-5A29E4?style=flat-
 - Steam For U의 로그 생명주기 
 - [log_Life_Cycle README.md](https://github.com/SteamReviewSearch/log_Life_Cycle/blob/main/README.md)
 
+# Member
+|직책|이름|github|e-mail|역할|
+|---|---|---|---|---|
+|팀장|김재준|g|m||
+|팀원|김민재|g|m||
+|팀원|최성영|https://github.com/cesdea|aprkvnem@gmail.com|추천 알고리즘, 로드밸런스, 로그인, 회원가입|
